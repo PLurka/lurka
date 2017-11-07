@@ -25,7 +25,7 @@ import java.util.Random;
       */
      public static void main(String[] args) {
          
-         Player player = new Player();   //obiekt gracz
+         Player player = new PlayerSuperHero("SuperJanusz");   //obiekt gracz
          
          try {
             player.setName(null);
